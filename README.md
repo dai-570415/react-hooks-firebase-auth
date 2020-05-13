@@ -13,7 +13,7 @@
 ## プロジェクトダウンロード & 構築
 
 ```bash
-$ git clone react-hooks-firebase-auth
+$ git clone https://github.com/dai-570415/react-hooks-firebase-auth.git
 
 $ cd react-hooks-firebase-auth
 
