@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { AuthContext } from './AuthProvider';
 import GoogleAuth from './GoogleAuth';
+import TwitterAuth from './TwitterAuth';
 import FacebookAuth from './FacebookAuth';
 
 const Signin = ({ history }) => {
@@ -24,6 +25,7 @@ const Signin = ({ history }) => {
                 <button type="submit">Sign in</button>
             </form>
             <button onClick={ GoogleAuth }>Google認証</button>
+            <button onClick={ TwitterAuth }>Twitter認証</button>
             <button onClick={ FacebookAuth }>Facebook認証(検証中)</button>
         </React.Fragment>
     );
